@@ -1,0 +1,135 @@
+body {
+    background-color: #8DF9F3;
+    
+}
+
+
+.jumbotron {
+    background-color: #8DF9F3;
+}
+
+
+/*THIS SECTION TARGETS THE CAROUSEL*/
+
+
+.carousel .item {
+   width: 100%; /*slider width*/
+   min-height: 400px;
+   max-height: 800px; /*slider height*/
+}
+
+
+    
+
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+/* PREVIOUS CAROUSEL CODE FOR THE JUMBOTRON
+.mycarousel {
+background-size: cover;
+height: 100%;
+max-width: 100%;
+}
+*/
+
+/*
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;    
+      
+   */   
+
+h1 {
+font-family: tangerine, sans-serif;
+font-size: 50px;
+text-align: center;
+color: #6D17ee;
+}
+
+h2 {
+    color: lightblue;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: merriweather;
+    text-align: center;
+    margin-top: 0;
+    color: #6D17ee;
+}
+
+.caption {
+    text-align:center;
+}
+
+/*
+.modalTwo {
+    max-height: 500px;
+    
+}
+*/
+
+
+.modal-content{
+     background-color: #8DF9F3;
+}
+
+p {
+    font-family: playfair display;
+}
+
+/*THIS SECTION TARGETS THE LINKS */
+
+/* unvisited link */
+a:link {
+    color: #F28906;
+}
+
+/* visited link */
+a:visited {
+    color: #8C0273;
+}
+
+/* mouse over link */
+a:hover {
+    color: #6D17ee;
+}
+
+/* selected link */
+a:active {
+    color: #055758;
+}
+
+
+
+/*THIS SECTION TARGETS THE FOOTER*/
+
+.panel-body {
+    text-align: center;
+    font-family: merriweather;
+    color: #6D17ee;
+    background-color: #8DF9F3;
+}
+
+
+      
+      
+.form-inline {
+    text-align: center;
+}     
+      
