@@ -61,16 +61,21 @@ color: #6D17ee;
 }
 
 h2 {
-    color: lightblue;
+    font-family: tangerine, sans-serif;
+    font-size: 48px;
     text-align: center;
+    color: #6D17ee;
     margin-top: 60px;
 }
 
 h3 {
     font-family: merriweather;
-    text-align: center;
+    font-size: 17px;
+    text-align: justify;
     margin-top: 0;
     color: #6D17ee;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .caption {
@@ -90,7 +95,7 @@ h3 {
 }
 
 p {
-    font-family: playfair display;
+    font-family: playfair display, sans-serif;
 }
 
 /*THIS SECTION TARGETS THE LINKS */
